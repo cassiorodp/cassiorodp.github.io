@@ -22,10 +22,14 @@ p {
     text-align: center;
     font-size: 20px;
 }
+div {
+    ;
+}
+li {
+    font-size: 20px;
+}
 ul {
     list-style-position: inside;
-    font-size: 20px;
-    text-align: center;
   }
   a {
       color: white;
