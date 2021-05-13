@@ -4,6 +4,7 @@ body {
 }
 #meu-nome{
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #foto-portifolio{
     text-align: center;
@@ -11,9 +12,12 @@ body {
     margin: 0 auto;
     border-radius: 50%;
 }
+.place {
+    font-weight: 600;
+}
 h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
 }
 h3 {
     text-align: center;
@@ -35,4 +39,17 @@ ul {
 }
   a {
       color: white;
+  }
+/*
+  .unix {
+      font-size: 30px;
+  }
+  .html {
+      font-size: 35px;
+  }
+  .css {
+      font-size: 40px;
+  }
+  .javascript {
+      font-size: 45px;
   }
