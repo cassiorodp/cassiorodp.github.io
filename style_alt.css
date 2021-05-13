@@ -1,0 +1,55 @@
+body {
+    background-color: #363945;
+    color: white;
+}
+#meu-nome{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#foto-portifolio{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.place {
+    font-weight: 600;
+}
+h2 {
+    text-align: center;
+    font-size: 3em;
+}
+h3 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    text-align: center;
+}
+ul {
+    margin: 0px auto;
+    display: inline-block;
+    text-align: left;
+}
+  li {
+    font-size: 20px;
+}
+  a {
+      color: white;
+  }
+/*
+  .unix {
+      font-size: 30px;
+  }
+  .html {
+      font-size: 35px;
+  }
+  .css {
+      font-size: 40px;
+  }
+  .javascript {
+      font-size: 45px;
+  }
