@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #363945;
     color: white;
@@ -12,44 +16,48 @@ body {
     margin: 0 auto;
     border-radius: 50%;
 }
+#breve-resumo {
+    margin-bottom: 30px;
+}
 .place {
     font-weight: 600;
 }
 h2 {
     text-align: center;
     font-size: 3em;
+    color: #fff;
 }
 h3 {
     text-align: center;
+    margin: 20px;
 }
 p {
     text-align: center;
     font-size: 25px;
+    padding: 20px;
+    color: #fff;
 }
 .container{
     text-align: center;
+    margin: 30px 0;
 }
-ul {
+.container-index {
+    display: inline-block;
+    padding: 30px;
+}
+.container-skills {
     margin: 0px auto;
     display: inline-block;
     text-align: left;
 }
+.container-skills-list {
+    text-align: center;
+}
   li {
     font-size: 25px;
+    color: #fff;
 }
   a {
       color: white;
   }
-/*
-  .unix {
-      font-size: 30px;
-  }
-  .html {
-      font-size: 35px;
-  }
-  .css {
-      font-size: 40px;
-  }
-  .javascript {
-      font-size: 45px;
-  }
+
