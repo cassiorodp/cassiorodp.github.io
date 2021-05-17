@@ -62,6 +62,13 @@ p {
 .container-skills-list {
     text-align: center;
 }
+div {
+    text-align: center;
+}
+.footer {
+    display: inline-block;
+    font-size: 2em;
+}
   li {
     font-size: 25px;
     color: #fff;
