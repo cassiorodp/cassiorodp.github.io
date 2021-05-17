@@ -6,7 +6,7 @@ body {
     background-color: #363945;
     color: white;
 }
-#meu-nome{
+.meu-nome{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

@@ -9,7 +9,7 @@ body {
     background-size: cover;
     color: #fff;
 }
-#meu-nome{
+.meu-nome{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
