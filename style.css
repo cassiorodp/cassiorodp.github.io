@@ -22,6 +22,10 @@ body {
 .social-media{
     display: block;
     text-align: center;
+    margin: 10px 0;
+}
+.icons {
+    margin: 15px;
 }
 .place {
     font-weight: 600;
