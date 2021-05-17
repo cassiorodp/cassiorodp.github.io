@@ -6,12 +6,13 @@ body {
     background-color: #363945;
     color: white;
 }
-/* section {
+section {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid gray;
-    max-width: 500px;
-} */
+    max-width: 600px;
+    margin: 50px auto;
+}
 .meu-nome{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -52,13 +53,18 @@ p {
     padding: 20px;
     color: #fff;
 }
-.container{
+.resume{
     text-align: center;
-    margin: 30px 0;
 }
-.container-index {
+.resume-list {
     display: inline-block;
-    padding: 30px;
+    padding: 10px;
+    margin: 20px 20px 20px 0;
+    background-color: rgba(182, 179, 179, 0.459);
+    border-radius: 15%;
+}
+.skills {
+    text-align: center;
 }
 .container-skills {
     margin: 0px auto;
@@ -73,7 +79,12 @@ div.container-footer {
 }
 .footer {
     display: inline-block;
-    font-size: 2em;
+    padding: 10px;
+    margin: 20px 30px 20px 0;
+    background-color: rgba(182, 179, 179, 0.459);
+    border-radius: 15%;
+    width: 30%;
+    text-decoration: none;
 }
   li {
     font-size: 25px;
@@ -81,5 +92,6 @@ div.container-footer {
 }
   a {
       color: white;
+      text-decoration: none;
   }
 
