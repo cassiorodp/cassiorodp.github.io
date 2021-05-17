@@ -23,12 +23,12 @@ body {
     margin-bottom: 30px;
 }
 .social-media{
-    display: block;
     text-align: center;
     margin: 10px 0;
 }
 .icons {
     margin: 15px;
+    display: inline-block;
 }
 .place {
     font-weight: 600;
