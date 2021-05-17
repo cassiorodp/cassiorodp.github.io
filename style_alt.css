@@ -22,6 +22,14 @@ body {
 #breve-resumo {
     margin-bottom: 30px;
 }
+.social-media{
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+.icons {
+    margin: 15px;
+}
 .place {
     font-weight: 600;
 }
@@ -32,6 +40,7 @@ h2 {
 h3 {
     text-align: center;
     margin: 20px;
+    font-size: 2em;
 }
 p {
     text-align: center;
