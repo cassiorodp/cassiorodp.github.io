@@ -19,17 +19,22 @@ body {
 #breve-resumo {
     margin-bottom: 30px;
 }
+.social-media{
+    display: block;
+    text-align: center;
+}
 .place {
     font-weight: 600;
 }
 h2 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     color: #fff;
 }
 h3 {
     text-align: center;
     margin: 20px;
+    font-size: 2em;
 }
 p {
     text-align: center;
@@ -48,7 +53,7 @@ p {
 .container-skills {
     margin: 0px auto;
     display: inline-block;
-    text-align: left;
+    text-align: center;
 }
 .container-skills-list {
     text-align: center;
