@@ -4,15 +4,22 @@
 }
 
 body {
+  background-image: url(wallpaper/synthwave.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+/* body {
     background-image: url(wallpaper/matrix.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
-}
+} */
 
 main {
-  border: 5px solid rgb(0, 128, 0);
+  border: 5px solid rgba(117, 0, 128, 0.644);
   max-width: 600px;
   margin: 50px auto;
 }
@@ -74,7 +81,7 @@ p {
   display: inline-block;
   padding: 10px;
   margin: 20px 20px 20px 0;
-  background-color: rgba(182, 179, 179, 0.459);
+  background-color: rgba(117, 0, 128, 0.644);
   border-radius: 15%;
 }
 
@@ -100,7 +107,7 @@ p {
   display: inline-block;
   padding: 10px;
   margin: 20px 30px 20px 0;
-  background-color: rgba(182, 179, 179, 0.459);
+  background-color: rgba(117, 0, 128, 0.644);
   border-radius: 15%;
   width: 30%;
   text-decoration: none;
