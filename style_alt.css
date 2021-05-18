@@ -9,12 +9,10 @@ body {
     background-size: cover;
     color: #fff;
 }
-section {
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px solid rgb(0, 128, 0);
-    max-width: 600px;
-    margin: 50px auto;
+main {
+  border: 5px solid rgb(0, 128, 0);
+  max-width: 600px;
+  margin: 50px auto;
 }
 .meu-nome{
     text-align: center;
@@ -75,16 +73,17 @@ p {
 .container-skills-list {
     text-align: center;
 }
-div.container-footer {
-    text-align: center;
+div.extra-links {
+  text-align: center;
 }
-.footer {
-    display: inline-block;
-    padding: 10px;
-    margin: 20px 30px 20px 0;
-    background-color: rgba(0, 128, 0, 0.459);
-    border-radius: 15%;
-    width: 30%;
+.extra-links-list {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px 30px 20px 0;
+  background-color: rgba(182, 179, 179, 0.459);
+  border-radius: 15%;
+  width: 30%;
+  text-decoration: none;
 }
   li {
     font-size: 25px;
