@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(67, 197, 158);
+}
+
+#minha_foto {
+  width: 350px;
+  display: block;
+  margin: 90px auto 0;
+}
+
+.lessons {
+  text-align: center;
+}
+
+#lessons-learned {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#lessons-to-learn {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#rodape {
+  text-align: center;
+}
+
+nav h2 {
+  color: black;
+  padding: 20px;
+  background-color: rgb(67, 197, 158);
+  text-align: center;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  max-width: 400px;
+  border: 1px dashed black;
+  text-align: justify;
+  font-size: 15px;
+  font-family: monospace;
+  line-height: 1.6;
+}
+
+.lado-direito {
+  display: inline-block;
+  max-width: 400px;
+  border: 1px dashed black;
+  text-align: justify;
+  font-size: 15px;
+  font-family: monospace;
+  line-height: 1.6;
+}
+
+aside {
+  float: right;
+}
