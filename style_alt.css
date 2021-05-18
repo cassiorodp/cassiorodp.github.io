@@ -80,7 +80,7 @@ p {
 .resume-list {
   display: inline-block;
   padding: 10px;
-  margin: 20px 20px 20px 0;
+  margin: 20px;
   background-color: rgba(117, 0, 128, 0.644);
   border-radius: 15%;
 }
