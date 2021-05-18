@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #363945;
     color: white;
 }
+
 main {
   border: 5px solid gray;
   max-width: 600px;
@@ -16,45 +18,55 @@ main {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 #foto-portifolio{
     text-align: center;
     display: block;
     margin: 0 auto;
     border-radius: 50%;
 }
+
 #breve-resumo {
     margin-bottom: 30px;
 }
+
 .social-media{
     text-align: center;
     margin: 10px 0;
 }
+
 .social-media a {
     margin: 15px;
     display: inline-block;
 }
+
 .place {
     font-weight: 600;
 }
+
 h2 {
     text-align: center;
     font-size: 2em;
     color: #fff;
 }
+
 h3 {
     text-align: center;
     margin: 20px;
     font-size: 2em;
 }
+
 p {
     text-align: center;
     font-size: 25px;
     padding: 20px;
     color: #fff;
 }
+
 .resume{
     text-align: center;
 }
+
 .resume-list {
     display: inline-block;
     padding: 10px;
@@ -62,20 +74,25 @@ p {
     background-color: rgba(182, 179, 179, 0.459);
     border-radius: 15%;
 }
+
 .skills {
     text-align: center;
 }
+
 .container-skills {
     margin: 0px auto;
     display: inline-block;
     text-align: center;
 }
+
 .container-skills-list {
     text-align: center;
 }
-div.extra-links {
+
+.extra-links {
     text-align: center;
 }
+
 .extra-links-list {
     display: inline-block;
     padding: 10px;
@@ -85,12 +102,13 @@ div.extra-links {
     width: 30%;
     text-decoration: none;
 }
+
   li {
     font-size: 25px;
     color: #fff;
 }
+
   a {
       color: white;
       text-decoration: none;
   }
-
