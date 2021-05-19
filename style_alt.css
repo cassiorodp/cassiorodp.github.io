@@ -22,6 +22,7 @@ main {
   border: 5px solid rgba(117, 0, 128, 0.644);
   max-width: 600px;
   margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.123);
 }
 
 .meu-nome{
@@ -48,10 +49,6 @@ main {
 .social-media a {
   margin: 15px;
   display: inline-block;
-}
-
-.place {
-  font-weight: 600;
 }
 
 h2 {
@@ -90,13 +87,7 @@ p {
 }
 
 .container-skills {
-  margin: 0px auto;
   display: inline-block;
-  text-align: center;
-}
-
-.container-skills-list {
-  text-align: center;
 }
 
 .extra-links {
@@ -109,7 +100,6 @@ p {
   margin: 20px 30px 20px 0;
   background-color: rgba(117, 0, 128, 0.644);
   border-radius: 15%;
-  width: 30%;
   text-decoration: none;
 }
 
