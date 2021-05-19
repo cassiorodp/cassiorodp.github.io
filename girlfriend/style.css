@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  color: green;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  display: inline-block;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: green;
+}
