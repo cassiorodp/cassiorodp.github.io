@@ -18,16 +18,7 @@ body {
 
 .lessons {
   text-align: center;
-}
-
-#lessons-learned {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-#lessons-to-learn {
-  display: inline-block;
-  margin: 0 20px;
+  margin: 0 auto;
 }
 
 #rodape {
