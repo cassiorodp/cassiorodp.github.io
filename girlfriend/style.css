@@ -33,3 +33,7 @@ footer {
 a {
   color: green;
 }
+
+iframe {
+  margin: 0 auto;
+}
