@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #bfdbf7;
+}
+
+main {
+  background-color: white;
+  width: 800px;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+
+header {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#funcionamento {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#task {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#lista-tarefas {
+  text-align: center;
+  list-style-position: inside;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #bfdbf7;
+  border-radius: 12px;
+}
+
+#lista-tarefas li {
+  margin: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#center-erase-button {
+  text-align: center;
+  margin: 20px;
+}
+
+#center-erase-button button {
+  margin: 5px;
+  background-color: #090446;
+  color: white;
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 12px;
+}
