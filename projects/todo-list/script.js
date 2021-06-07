@@ -3,7 +3,7 @@ const inputTask = document.querySelector('#texto-tarefa');
 const taskList = document.querySelector('#lista-tarefas');
 
 // Adiciona botão que cria tarefas
-buttonTask.addEventListener('click', () => {
+buttonTask.addEventListener('click', function () {
   const liTask = document.createElement('li');
   liTask.innerHTML = inputTask.value;
   inputTask.value = '';
@@ -11,7 +11,7 @@ buttonTask.addEventListener('click', () => {
 });
 
 // Adiciona mudança de cor de fundo
-taskList.addEventListener('click', (event) => {
+taskList.addEventListener('click', function (event) {
   const selected = document.querySelectorAll('.selected');
   for (let index = 0; index < selected.length; index += 1) {
     selected[index].classList.remove('selected');
