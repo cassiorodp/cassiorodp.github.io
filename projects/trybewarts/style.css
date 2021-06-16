@@ -1,0 +1,97 @@
+/* resetando css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* estilo do requisito 1 */
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  align-self: center;
+}
+
+/* Requisito 3 */
+.trybewarts-login {
+  display: flex;
+  justify-content: space-around;
+  min-width: 450px;
+  margin-right: 50px;
+}
+
+.trybewarts-login input {
+  margin-right: 10px;
+}
+
+/* estilo do logo do requesito 2 */
+.trybewarts-header-logo {
+  align-self: flex-start;
+  width: 40px;
+  height: 40px;
+}
+
+/* estilo do requisito 4 */
+#trybewarts-header-title {
+  text-align: center;
+}
+
+/* estilo do requisito 5 e 6 */
+.flex-container {
+  display: flex;
+}
+
+.form-size {
+  justify-self: flex-start;
+  align-self: center;
+  width: 675px;
+  flex-direction: column;
+}
+
+/* tamanho da logo (requisito 7) */
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+/* Alinhamento horizontal requisito 10 */
+.input-name-lastname {
+  display: flex;
+}
+
+/* alinhando email e casa (requisito 11) */
+.input-email-house {
+  display: flex;
+}
+
+/* tamanho da logo (requisito 12) */
+.container-direction {
+  flex-direction: column;
+}
+
+/* Alinhamento dos radio-buttons (requisito 14) */
+.rate-container {
+  display: flex;
+}
+
+.radio-buttons-rate {
+  display: flex;
+}
+
+/* Bonus */
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+body {
+  /* Imagem extraida de : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F92534967314486091%2F&psig=AOvVaw2e38Y2oP4ycd6FW8W7DPOj&ust=1623970331709000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDHwomfnfECFQAAAAAdAAAAABAD */
+  background-image: url(images/hp-cover.jpg);
+  background-size: cover;
+  color: white;
+}
