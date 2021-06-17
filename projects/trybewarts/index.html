@@ -29,14 +29,14 @@
     <form id="evaluation-form" class="flex-container form-size">
       <!-- Requisito 8 -->
       <div class="input-name-lastname">
-        <input type="text" id="input-name" placeholder="Nome">
-        <input type="text" id="input-lastname" placeholder="Sobrenome">
+        <input type="text" id="input-name" class="form-control" placeholder="Nome">
+        <input type="text" id="input-lastname" class="form-control" placeholder="Sobrenome">
       </div>
       <!-- criando div para alinhar como flex (requisito 10)-->
       <div class="input-email-house">
-        <input type="text" id="input-email" placeholder="Email">
+        <input type="text" id="input-email" class="form-control" placeholder="Email">
         <!-- Requisito 9 -->
-        <select name="" id="house">
+        <select name="" id="house" class="form-select">
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
           <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
           <option value="Corvinode" id="corvinode-house">Corvinode</option>
@@ -48,9 +48,9 @@
       <!-- Editei os radio box para que o texto ficasse ao lado do radio select (requisito 12) -->
       <div class="flex-container container-direction">
         <label for="family" id="label-family" class="container-direction">Qual sua família?</label>
-        <input type="radio" name="family" value="Frontend">Frontend
-        <input type="radio" name="family" value="Backend">Backend
-        <input type="radio" name="family" value="FullStack">FullStack
+        <label for="frontend">Frontend<input type="radio" id="frontend" name="family" value="Frontend"></label>
+        <label for="backend">Backend<input type="radio" id="backend" name="family" value="Backend"></label>
+        <label for="fullStack">FullStack<input type="radio" id="fullStack" name="family" value="FullStack"></label>
       </div>
       <!-- Crie campo de entrada para avaliar de 1 a 10 o nível de satisfação com a Trybewarts (requisito 14) -->
       <div class="rate-container">
@@ -62,26 +62,32 @@
       <div class="flex-container container-direction">
         <label for="family" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <div class="flex-container">
-          <input type="checkbox" value="HoFs">HoFs
+          <input type="checkbox" id="HoFs" value="HoFs">
+          <label for="HoFs">HoFs</label>
         </div>
         <div class="flex-container">
-          <input type="checkbox" value="Jest">Jest
+          <input type="checkbox" id="Jest" value="Jest">
+          <label for="Jest">Jest</label>
         </div>
         <div class="flex-container">
-          <input type="checkbox" value="Promises">Promises
+          <input type="checkbox" id="Promises" value="Promises">
+          <label for="Promises">Promises</label>
         </div>
         <div class="flex-container">
-          <input type="checkbox" value="React">React
+          <input type="checkbox" id="React" value="React">
+          <label for="React">React</label>
         </div>
         <div class="flex-container">
-          <input type="checkbox" value="SQL">SQL
+          <input type="checkbox" id="SQL" value="SQL">
+          <label for="SQL">SQL</label>
         </div>
         <div class="flex-container">
-          <input type="checkbox" value="Python">Python
+          <input type="checkbox" id="Python" value="Python">
+          <label for="Python">Python</label>
         </div>
       </div>
       <!-- criando uma text area de tamanho 500 (requisito 15) -->
-      <label for="textarea" class="textarea">Deixe seu comentário:</label>
+      <label for="textarea" class="textarea form-control">Deixe seu comentário:</label>
       <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
       <!-- Crie um campo de entrada do tipo 'checkbox' com o id 'agreement' para validar as informações (requisito 16) -->
       <div>

@@ -95,3 +95,27 @@ body {
   background-size: cover;
   color: white;
 }
+
+form input {
+  margin-bottom: 20px;
+}
+
+#house{
+  height: 38px;
+}
+
+.flex-container input {
+  margin-left: 10px;
+}
+
+.flex-container label {
+  margin-left: 10px;
+}
+
+.flex-container label {
+  margin-bottom: 10px;
+}
+
+#input-email {
+  margin-right: 10px;
+}
