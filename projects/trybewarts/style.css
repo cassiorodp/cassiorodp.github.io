@@ -10,7 +10,6 @@
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
-  align-items: center;
 }
 
 .header img {
@@ -21,12 +20,15 @@
 .trybewarts-login {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   min-width: 450px;
   margin-right: 50px;
 }
 
 .trybewarts-login input {
   margin-right: 10px;
+  margin-bottom: 0;
+  align-self: center;
 }
 
 /* estilo do logo do requesito 2 */
