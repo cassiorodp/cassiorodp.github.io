@@ -117,3 +117,38 @@ a {
   color: white;
   text-decoration: none;
 }
+
+.container-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+i {
+  font-size: 55px;
+  margin: 20px;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+i:hover {
+  font-size: 80px;
+}
+
+.fa-git {
+  color: orange;
+}
+
+.fa-html5 {
+  color: rgb(255, 72, 0);
+}
+
+.fa-css3-alt {
+  color: rgb(9, 53, 248);
+}
+
+.fa-js {
+  color: rgb(248, 248, 62);
+}
