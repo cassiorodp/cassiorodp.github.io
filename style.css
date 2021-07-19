@@ -40,6 +40,11 @@ main {
   display: inline-block;
 }
 
+.social-media img:hover {
+  width: 100px;
+  transition: 0.5s;
+}
+
 .place {
   font-weight: 600;
 }

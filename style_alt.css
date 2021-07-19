@@ -52,6 +52,11 @@ main {
   margin: 15px;
 }
 
+.social-media img:hover {
+  width: 100px;
+  transition: 0.5s;
+}
+
 h2 {
   text-align: center;
   font-size: 2em;
@@ -114,6 +119,11 @@ i {
   font-size: 55px;
   margin: 20px;
   opacity: 0.8;
+  transition: 0.5s;
+}
+
+i:hover {
+  font-size: 80px;
 }
 
 .fa-git {
