@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./images/EachWellinformedAidi-small.gif);
+  background-color: #1e1e24;
+  background-repeat: repeat;
+  background-size: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #CB2D3A;
+}
+
+section {
+  display: flex;
+  min-width: 25%;
+  background-color: rgba(255, 255, 255, 0.541);
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.pokemon-info {
+  color: rgb(0, 0, 0);
+  flex: 1 1 0;
+  padding: 5px;
+  margin: 10px 10px;
+  border: 1px red solid;
+  border-radius: 10px;
+}
+
+.pokedex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 10px;
+}
+
+section img {
+  margin: 5px;
+  width: fit-content;
+  height: auto;
+}
