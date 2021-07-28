@@ -1,0 +1,14 @@
+.add-movie-form {
+  align-items: center;
+  background-color: #74788d;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin: 10px;
+}
+
+.btn-dark {
+  margin-bottom: 10px;
+}

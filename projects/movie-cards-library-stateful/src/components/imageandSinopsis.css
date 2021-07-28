@@ -1,0 +1,4 @@
+.image-sinopsis {
+  display: flex;
+  flex-direction: column;
+}

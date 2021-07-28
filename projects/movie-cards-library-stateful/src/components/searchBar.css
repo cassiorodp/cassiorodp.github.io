@@ -1,0 +1,15 @@
+.search-bar-form {
+  align-items: center;
+  background-color: #74788d;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar-form label {
+  margin: 10px;
+}
+
+
+.form-check-input {
+  left: 25px;
+}
