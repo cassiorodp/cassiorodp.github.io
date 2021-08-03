@@ -1,0 +1,9 @@
+.add-card {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
